@@ -12,7 +12,7 @@ h3 {
   
 }
 body {
-  background-color: rgb(240, 236, 227);
+  background-color: #fff3e4;
 }
 
 .main{
@@ -25,13 +25,13 @@ body {
 }
 
 th {
-  padding: 10px;
+  padding: 15px;
   font-size: 15px;
   text-align: center;
 }
 
 td {
-  padding: 12px;
+  padding: 20px;
   border-spacing: 12px;
 }
 
@@ -49,10 +49,11 @@ hr {
 .Experience{
   margin-left: auto;
   margin-right: auto;
+  padding: 2px;
 }
 
-.lbl{
-  vertical-align: 450%;
+.lbl *{
+  vertical-align: middle;
   ;
 }
 
