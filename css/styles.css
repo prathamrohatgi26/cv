@@ -42,15 +42,10 @@ hr {
 }
 
 .contact {
-  border-style: inset;
-  border-width: thin;
-  width: 35%;
-
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.contactBody {
-  text-align: center;
-}
 .Experience{
   margin-left: auto;
   margin-right: auto;
