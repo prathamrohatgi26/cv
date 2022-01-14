@@ -1,28 +1,35 @@
-*{
-  font-family: 'Merriweather';
+* {
+  font-family: "Montserrat";
+  font-weight: 400;
 }
 h1 {
-  color : #35858b;
+  color: #f05454;
 }
 
+h2 {
+  color: #f05454;
+  font-weight: 700;
+}
 h3 {
-  color: #35858b;
+  color: #f05454;
   font-size: 25px;
   text-align: center;
-  
+  font-weight: 700;
 }
 body {
-  background-color: #faeee7;
-  color: #072227;
+  background-color: #f5f5f5;
+  color: #121212;
 }
 
-.main{
- font-size: 20px;
+.main {
+  font-size: 20px;
+  font-weight: 500;
 }
 
-.name{
+.name {
   font-size: 40px;
   text-align: justify;
+  font-weight: 800;
 }
 
 th {
@@ -40,7 +47,7 @@ hr {
   border-style: dotted none none;
   width: 25%;
   border-width: medium;
-  border-color: #4fbdba;
+  border-color: #30475e;
 }
 
 .contact {
@@ -48,19 +55,18 @@ hr {
   margin-bottom: 20px;
 }
 
-.Experience{
+.Experience {
   margin-left: auto;
   margin-right: auto;
   padding: 2px;
   text-align: center;
 }
 
-.lbl *{
+.lbl * {
   vertical-align: middle;
-  ;
 }
 
-.skills{
+.skills {
   text-align: center;
   display: flex;
   justify-content: center;
@@ -70,16 +76,17 @@ hr {
   list-style: none;
 }
 
-.links{
+.links {
   text-align: center;
 }
 
-.hobbies{
+.hobbies {
   text-align: center;
   display: flex;
   justify-content: center;
+  text-decoration: none;
 }
-.hobbies ul{
+.hobbies ul {
   list-style: none;
 }
 
@@ -97,3 +104,35 @@ hr {
   padding-left: 25px;
 }
 
+.flexbox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.link-img {
+  margin-right: 0.5rem;
+}
+
+.submit {
+  margin-bottom: 3rem;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 800;
+}
+
+a:link {
+  color: #4fbdba;
+}
+
+a:visited {
+  color: #35858b;
+}
+a:hover {
+  color: #f05454;
+}
