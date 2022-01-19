@@ -165,6 +165,7 @@ a:hover {
   position: fixed; /* Set the navbar to fixed position */
   top: 0;
   width: 100%;
+  z-index: 2;
 }
 
 .navbar {
@@ -242,7 +243,6 @@ input.submit {
 .w-100 {
   width: 65% !important;
   margin: 1.5rem auto;
-  padding-top: ;
 }
 
 .mooc-heading {
