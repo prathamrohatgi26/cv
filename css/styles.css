@@ -84,6 +84,7 @@ td {
 }
 
 .skills ul {
+  /* text-align: left; */
   list-style: none;
 }
 
